@@ -28,10 +28,14 @@ function getService() {
 window.onload = function () {
     document.getElementById('photo').addEventListener('click', showClickMe)
     document.getElementById('block').addEventListener('click', getService)
-    document.addEventListener('load', function (e) {
+
+    document.addEventListener('load', function (e) {    // [ae]   
         // body
-    });
-    document.getElementById('id');
-    // comments
-    
+    }); 
+    document.getElementById('id');                      // [gl]
+    document.removeChild(elem);                         // [rc]
+    document.getAttribute('attr');                      // [ga]
+    function methodName (arguments) {
+        // body
+    }
 }
